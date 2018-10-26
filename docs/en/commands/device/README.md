@@ -51,7 +51,7 @@
     <li><a href='/docs/en/commands/device/recording-screen'>Screen Recording</a><ul>    <li><a href='/docs/en/commands/device/recording-screen/start-recording-screen.md'>Start Screen Recording</a></li>
     <li><a href='/docs/en/commands/device/recording-screen/stop-recording-screen.md'>Stop Screen Recording</a></li>
 </ul></li>
-    <li><a href='/docs/en/commands/device/simulator'>Simulator</a><ul>    <li><a href='/docs/en/commands/device/simulator/touch-id.md'>Perform Touch ID</a></li>
+    <li><a href='/docs/en/commands/device/simulator'>IOS Simulator</a><ul>    <li><a href='/docs/en/commands/device/simulator/touch-id.md'>Perform Touch ID</a></li>
     <li><a href='/docs/en/commands/device/simulator/toggle-touch-id-enrollment.md'>Toggle Touch ID Enrollment</a></li>
 </ul></li>
     <li><a href='/docs/en/commands/device/system'>System</a><ul>    <li><a href='/docs/en/commands/device/system/open-notifications.md'>Open Notifications</a></li>
@@ -59,6 +59,9 @@
     <li><a href='/docs/en/commands/device/system/system-time.md'>System Time</a></li>
 </ul></li>
     <li><a href='/docs/en/commands/device/authentication'>Authentication</a><ul>    <li><a href='/docs/en/commands/device/authentication/finger-print.md'>Finger Print</a></li>
+</ul></li>
+    <li><a href='/docs/en/commands/device/emulator'>Android Emulator</a><ul>    <li><a href='/docs/en/commands/device/emulator/power-ac.yml'>Power AC</a></li>
+    <li><a href='/docs/en/commands/device/emulator/power-capacity'>Power Capacity</a></li>
 </ul></li>
 </ul>
 </div>

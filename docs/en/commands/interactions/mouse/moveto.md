@@ -9,7 +9,7 @@ Move the mouse by an offset of the specificed element
 // Java
 Actions action = new Actions(driver);
 action.moveTo(element, 10, 10);
-action.perform()
+action.perform();
 
 ```
 

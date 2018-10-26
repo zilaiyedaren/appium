@@ -105,7 +105,7 @@ module.exports = {
           ["Start Screen Recording", "start-recording-screen.md"],
           ["Stop Screen Recording", "stop-recording-screen.md"],
         ]],
-        ["Simulator", ["simulator",
+        ["IOS Simulator", ["simulator",
           ["Perform Touch ID", "touch-id.md"],
           ["Toggle Touch ID Enrollment", "toggle-touch-id-enrollment.md"],
         ]],
@@ -117,6 +117,10 @@ module.exports = {
         ["Authentication", ["authentication",
           ["Finger Print", "finger-print.md"],
         ]],
+        ["Android Emulator", ["emulator",
+          ["Power AC", "power-ac.yml"],
+          ["Power Capacity", "power-capacity"]
+        ]]
       ]],
       ["Element", ["element",
         ["Find Element", "find-element.md"],
