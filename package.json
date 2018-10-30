@@ -87,7 +87,8 @@
     "upload": "node ./build/test/scripts/bintray-upload.js",
     "zip-and-upload": "npm run zip && npm run upload",
     "shrinkwrap-prod": "npm ci && npm shrinkwrap && npm prune --only=prod && npm shrinkwrap && npm install --no-shrinkwrap",
-    "release-beta": "npm run shrinkwrap-prod && release pre beta"
+    "release-beta": "npm run shrinkwrap-prod && release pre beta",
+    "postpublish": "rimraf npm-shrinkwrap && git checkout -- package-lock.json"
   },
   "pre-commit": [
     "precommit-msg",
